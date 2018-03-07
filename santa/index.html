@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head style="position: fixed; overflow: hidden">
+<head>
 
     <meta charset="UTF-8">
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +24,12 @@
     <script src="https://vk.com/js/api/xd_connection.js?2"></script>
 
     <script src="Santa.min.js"></script>
+
+    <script>
+        $(document).bind("touchmove",function(event){
+            event.preventDefault();
+        });
+    </script>
 
 </head>
 <body>
