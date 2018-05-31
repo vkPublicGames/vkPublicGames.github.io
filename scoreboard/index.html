@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Топ игроков</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script data-main="src/js/config.js" src="src/js/require.js"></script>
+
+    <script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+
+
+</head>
+<body>
+
+
+
+        <div style="display: none; opacity: 0;" id="main" class="col-11 col-sm-9 col-md-8 col-lg-5 ">
+
+            <h2 id="scoreboard-name">Топ 10 игроков</h2>
+            <div id="scoreboard-outer">
+                <table id="users-board" class="scoreboard table table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="left-column"><span class="fa fa-trophy"></span></th>
+                            <th class="center-column"><span class="name-row">Игрок</span> <span class="fa fa-user"></span></th>
+                            <th class="right-column"><span class="name-row">Побед</span></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <table id="self-board" class="scoreboard table table-bordered">
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="play-button">
+                <a href="https://vk.com/im?sel=-167062998" target="_blank">
+                   Играть
+                </a>
+            </div>
+        </div>
+
+</body>
+</html>
